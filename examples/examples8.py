@@ -1,4 +1,4 @@
-print("Внутренняя функции:")
+print("Внутренние функции:")
 def outer(out_param_1, out_param_2):
     def inner(in_param_1, in_param_2):
         return in_param_1 + in_param_2
